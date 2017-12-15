@@ -14,13 +14,13 @@
       }
     });
     $('.four-c-l').click(function(){
-        swiper.slideTo(6, 500, false);
+        swiper.slideTo(6, 500, true);
     });
     $('.four-c-r').click(function(){
-        swiper.slideTo(5, 500, false);
+        swiper.slideTo(4, 500, true);
     });
     $('.six-input').click(function(){
-        swiper.slideTo(4, 500, false);
+        swiper.slideTo(4, 500, true);
     });
     var music=document.getElementById("music");
     var music_bg=document.querySelector(".music_bg");

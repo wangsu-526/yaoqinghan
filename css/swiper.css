@@ -380,6 +380,11 @@ body {
     background: #ec8a9b;
     border: none;
     left: 17%;
+
+}
+.six-input{
+    border: 2px solid #000;
+    color: #fff;
 }
 #music{
     position: fixed;
