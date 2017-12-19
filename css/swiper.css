@@ -145,12 +145,19 @@ body {
     position: relative;
     color: #fff;
 }
+.swiper-slide.three .xueyuan{
+    position: absolute;
+    top: 10%;
+}
 .swiper-slide.three .p1{
     position: absolute;
     top: 5%;
     left: 20%;
-    font-size: 4vw;
     opacity: 0.7;
+}
+.swiper-slide.three img{
+    width: 40%;
+    height: 30%;
 }
 .swiper-slide.three .p2{
     position: absolute;
