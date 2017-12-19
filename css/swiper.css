@@ -147,13 +147,29 @@ body {
 }
 .swiper-slide.three .xueyuan{
     position: absolute;
-    top: 10%;
+    top: 6%;
+    z-index: 10;
+    border: 3px solid #dd769e;
+    width: 29%;
+    height: 6%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 .swiper-slide.three .p1{
     position: absolute;
-    top: 5%;
+    top: 24%;
     left: 20%;
     opacity: 0.7;
+}
+.swiper-slide.three .p3{
+    position: absolute;
+    top: 28%;
+    right: 31%;
+    /*display: flex;
+    align-items:flex-start;*/
+    width: 18px;
+    font-size: 4vw;
 }
 .swiper-slide.three img{
     width: 40%;
@@ -161,35 +177,18 @@ body {
 }
 .swiper-slide.three .p2{
     position: absolute;
-    top: 80%;
-    left: 62%;
-    font-size: 4vw;
-    opacity: 0.4;
-}
-.swiper-slide.three .p3{
-    position: absolute;
-    top: 33%;
-    left: 18%;
-    font-size: 3vw;
+    top: 60%;
+    left: 44%;
+    opacity: 0.7;
 }
 .swiper-slide.three .p4{
     position: absolute;
-    top: 21%;
-    left: 52%;
-    font-size: 7vw;
-    opacity: 0.6;
+    top: 59%;
+    left: 35%;
+    width: 20px;
+    font-size: 4vw;
 }
-.swiper-slide.three .p5{
-    position: absolute;
-    top: 53%;
-    left: 40%;
-    font-size: 2vw;
-}
-.swiper-slide.three .p6{
-    position: absolute;
-    top: 62%;
-    left: 19%;
-}
+
 .swiper-slide.four{
     position: relative;
     overflow: hidden;
@@ -433,32 +432,34 @@ body {
 }
 .swiper-slide.ten .ten-1{
     position: absolute;
-    top:37%;
-    left: 30%;
+    top:38%;
+    left: 40%;
 }
 .swiper-slide.ten .ten-img1{
     width: 1%;
-    height: 53%;
+    height: 49%;
     position: absolute;
-    left: 20%;
+    left: 27%;
     top: 37%;
 }
 .swiper-slide.ten .ten-1 p{
-    margin-bottom: 13%;
+    margin-bottom: 19%;
+    font-size: 4vw;
 }
 .swiper-slide.ten .ten-yuan{
     position: absolute;
-    left: 18%;
+    left: 25%;
     top: 37%;
 }
+.swiper-slide.ten .ten-yuan p{
+    margin-bottom: 50%;
+}
+
 .swiper-slide.ten .ten-wen{
     position: absolute;
     top: 14%;
     left: 12%;
     height: 17%;
     width: 20%;
-}
-.swiper-slide.ten .ten-yuan p img{
-    margin-bottom: 53%;
 }
 
